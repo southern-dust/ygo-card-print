@@ -1,3 +1,10 @@
+
+
+原来的代码默认去编译确实出现问题。
+使用 ``node v14.18.1``，
+在 ``package.json`` 中更改 ``ygo-card`` 依赖为 ``^1.2.7``，删掉 ``package-lock.json``，执行 ``npm audit fix``，然后执行 ``npm install`` 应该就可以使用了
+
+
 # RUN
 
 0. install nodejs: https://nodejs.org/en/download/
