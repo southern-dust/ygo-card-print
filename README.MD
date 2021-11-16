@@ -1,11 +1,11 @@
 # RUN
-
-0. install nodejs: https://nodejs.org/en/download/
+0. install nodejs v12.22.7: https://nodejs.org/download/release/v12.22.7/
 1. update your `resources/cards.cdb` to latest
-2. move ydk file to `resources/deck/` (`test-deck.ydk` as example)
-3. run `npm install`
-4. run `node index.js test-deck`
-5. checkout the pdf in `output/test-deck.pdf`
+2. mkdir `./output`
+3. move ydk file to `resources/deck/` (`test-deck.ydk` as example)
+4. run `yarn`
+5. run `node index.js test-deck`
+6. checkout the pdf in `output/test-deck.pdf`
 
 # THANKS
 
